@@ -17,7 +17,8 @@ The experiments are carried out for three different filter kernels: the Sobel fi
 Here, for example, we can see how the network weights converge close to the values of the Sobel filter in x-direction:
 ![A gif movie of kernel weights converging to Sobel x-direction filter](weightmoviegx.gif?raw=true "A gif movie of kernel weights converging to Sobel x-direction filter")
 
-The forward pass output (left-hand side) and the result of the linear filtering (right-hand side) on a grayscale image are almost identical as can be observed in the image below: 
+The forward pass output (left-hand side) and the result of the linear filtering (right-hand side) on a grayscale image are almost identical as can be observed in the image below:
+
 ![Output of the neural network and the result of the Sobel filtering in x-direction](PredictedFiltered_sobelx.png?raw=true "Output of the neural network and the result of the Sobel filtering in x-direction")
 
 Linear filtering can be carried out with an arbitrary kernel.
